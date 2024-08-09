@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 2px;
+    font-family: sans-serif;
+  }
+  header{
+    background-color: rgb(243, 157, 44);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_nav{
+    width: 1335px;
+    background-image: url(https://t3.ftcdn.net/jpg/03/91/46/10/240_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 10px;
+    color: rgba(255, 248, 220, 0.726);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .logo_container{
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+  }
+.header_nav h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic; 
+    color: coral;
+}
+.header_nav img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.search_container button{
+  margin: 0;
+  padding: 6px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.search_container input{
+  width: 300px;
+  padding: 10px 10px;
+  background-color: rgb(243, 157, 44);
+  outline: none;
+  font-size: 18px;
+  border-radius: 36px;
+  color: black;
+}
+header ul li a{
+  text-decoration: none;
+  color: rgb(235, 200, 148);
+}
+.warp{
+  display: flex;
+}
+.header_nav ul {
+  text-align: left;
+  list-style: none;
+  cursor: pointer;
+}
+section h2{
+  margin: 10px 50px;
+  width: 1000%px;
+  height: 1000%px;
+  border: 15px;
+  border-color: blue;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 255);
+  text-align: center;
+}
