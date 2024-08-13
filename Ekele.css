@@ -264,3 +264,9 @@ img.shead{
 .fools{
     margin-left: -180px;
 }
+@media all and (max-width: 600px){
+    .body_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
