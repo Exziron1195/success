@@ -267,6 +267,6 @@ img.shead{
 @media all and (max-width: 600px){
     .body_section{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
