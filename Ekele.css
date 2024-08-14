@@ -278,12 +278,19 @@ img.shead{
     cursor: pointer;
 }
 
-@media all and (max-width: 600px){
+@media screen and (max-width: 800px){
     .body_section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     nav{
         flex-direction: row;
+        align-items: baseline;
+        top: 90%;
+        width: 100vw;
+        margin: 0;
+    }
+    .div{
+        
     }
 }
