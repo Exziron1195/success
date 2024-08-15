@@ -375,8 +375,11 @@ img.shead{
         padding-right: 26px;
     }
     nav{
-        margin-top: -34px;
+        margin-top: -5px;
         width: 100%;
         gap: 2px;
+    }
+    .container{
+        margin-left: 72px;
     }
 }
