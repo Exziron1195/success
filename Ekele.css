@@ -351,18 +351,32 @@ img.shead{
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
     .logo-menu{
         display: flex;
         align-items: center;
-    }
-    .menu{
-        display: none;
     }
     .logo-menu:hover{
         transform: scale(1.2); 
     }
     nav{
         width: 100%;
+    }
+    .ham{
+        display: none;
+    }
+    .png{
+        width: 250px;
+        height: auto;
+    }
+    .body_section{
+        width: 360px;
+        margin-left: -55px;
+        padding-right: 26px;
+    }
+    nav{
+        margin-top: -34px;
+        width: 100%;
+        gap: 2px;
     }
 }
