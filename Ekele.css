@@ -224,6 +224,71 @@ div.code p{
     text-align: center;
     color: #ffffff;
 }
+.record span{
+    color: #fff;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 70px;
+    right: auto;
+    display: none;
+}
+.record:hover span{
+    display: flex;
+}
+.notice span.up{
+    color: #fff;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+}
+.notice:hover .up{
+    display: flex;
+}
+.notice span.app{
+    color: #fff;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+}
+.notice:hover .app{
+    display: flex;
+}
+.notice span.notify{
+    color: #fff;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+}
+.notice :hover.notify{
+    display: flex;
+}
+.profile span{
+    color: #fff;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px;
+    right: 165px;
+    display: none;
+}
+.profile:hover span{
+    display: flex;
+}
 /* p.ps{
     font-family: sans-serif;
     font-size: 30px;
